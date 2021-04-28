@@ -3,7 +3,7 @@
 // Test Data :
 // console.log(stringToArray(“Robin Singh”)); // [“Robin”, “Singh”]
 
-string_to_array = function (str) {
+stringtoarray = function (str) {
     return str.split(" ");
 };
-console.log(string_to_array("Robin Singh"));
+console.log(stringtoarray("Robin Singh"));
