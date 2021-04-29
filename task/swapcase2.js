@@ -3,8 +3,8 @@
 // Test Data :
 // console.log(swapCase(‘AaBbc’)); // “aAbBC”
 
-str ='AaBbc';
-res = '';
+const swapCase = (str) => {
+    res='';
 for (var i = 0; i < str.length; ++i) {
     c = str[i];
   if (c == c.toUpperCase()) {
@@ -15,4 +15,6 @@ for (var i = 0; i < str.length; ++i) {
     res += c;
   }
 }
-console.log(res);
+return res;
+}
+console.log(swapCase('AaBbc'));
